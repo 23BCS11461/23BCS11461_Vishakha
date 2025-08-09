@@ -1,0 +1,68 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container */
+form {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input fields and dropdowns */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+  width: 48%;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: #f44336;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="reset"]:hover {
+  background-color: #d7372f;
+}
